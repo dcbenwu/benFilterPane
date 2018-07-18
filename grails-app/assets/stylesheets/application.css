@@ -1,0 +1,24 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require main
+*= require mobile
+*= require_self
+*/
+.list {
+    font-size: 0.72em;
+    font-family: verdana,arial,sans-serif;
+}
+.filterPaneTable {
+    font-size: 0.9em;
+}
+.exportButtons {
+    border:1px;
+    float: right
+}
